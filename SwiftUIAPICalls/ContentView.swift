@@ -66,13 +66,6 @@ struct ContentView: View {
                 viewModel.fetch()
             }
         }
-        //        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
-//        }
-       // .padding()
     }
 }
 

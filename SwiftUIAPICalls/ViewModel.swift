@@ -26,10 +26,6 @@ class ViewModel:ObservableObject{
             guard let data = data,error == nil else {
                 return
             }
-            
-            //setValue("3850865a99msh677e25c7bb30006p106d25jsn9885040d8ca5", forHTTPHeaderField: "X-RapidAPI-Key")
-         
-            //convert to json
 
             do{
                 let courses = try JSONDecoder().decode([Course].self, from: data)
